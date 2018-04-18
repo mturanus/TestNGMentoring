@@ -1,0 +1,16 @@
+<suite name="Paramerers TestSuite">
+	<test name="Test">
+
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="platform" value="mac"></parameter>
+		<parameter name="response" value="201"></parameter>
+
+		<classes>
+		
+			<class name="testclasses.TestNG_TestParameters"></class>
+
+		</classes>
+
+	</test>
+
+</suite>
